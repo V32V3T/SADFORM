@@ -1,13 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
     const namkeenData = [
-        { id: 'laungsev', name: 'Laung Sev (रतलामी)', rate: 280 },
-        { id: 'dubbalsev', name: 'Dubbal Sev (मोटा)', rate: 260 },
-        { id: 'palaksev', name: 'Palak Sev (पालक)', rate: 300 },
-        { id: 'lehsunsev', name: 'Lehsun Sev (लहसुन)', rate: 320 },
-        { id: 'khattameetha', name: 'Khatta Meetha Mixture', rate: 290 },
-        { id: 'navratan', name: 'Navratan Mixture', rate: 310 },
-        { id: 'dalmoth', name: 'Dal Moth Mixture', rate: 300 },
-        { id: 'poha', name: 'Poha Mixture (Lite)', rate: 270 }
+        { id: 'heeramoti', name: 'Heera Moti Sev', rate: 190 },
+        { id: 'shahimoti', name: 'Shahi Moti Sev', rate: 200 },
+        { id: 'crispygold', name: 'Crispy Gold', rate: 190 },
+        { id: 'zaykabarik', name: 'Zayka Barik', rate: 200 },
+        { id: 'desichatpata', name: 'Desi Chatpata Mix', rate: 190 },
+        { id: 'royalnamkeen', name: 'Royal Namkeen Mix', rate: 200 },
+        { id: 'tanabana', name: 'Tana Bana Sev', rate: 190 },
+        { id: 'shehzaadi', name: 'Shehzaadi Sev', rate: 200 }
     ];
 
     const namkeenListContainer = document.getElementById('namkeen-list');
