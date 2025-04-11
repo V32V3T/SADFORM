@@ -1,0 +1,220 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group input[type="number"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Prevents padding from adding to width */
+}
+
+.form-group input:required:invalid,
+.form-group input[type="tel"]:invalid,
+.form-group input[type="number"]:invalid {
+    border-color: #e74c3c; /* Highlight invalid fields */
+}
+
+
+.form-group.address input {
+    margin-bottom: 5px; /* Spacing between address fields */
+}
+
+/* Namkeen List Styling */
+#namkeen-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+#namkeen-list th,
+#namkeen-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#namkeen-list th {
+    background-color: #f2f2f2;
+}
+
+#namkeen-list input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+#namkeen-list input[type="number"] {
+    width: 60px;
+    padding: 5px;
+}
+
+.item-total {
+    font-weight: bold;
+}
+
+.total-amount {
+    text-align: right;
+    font-size: 1.1em;
+    margin-top: 15px;
+}
+
+/* Payment Method Styling */
+.form-group input[type="radio"] {
+    margin-right: 5px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+/* Modal Styling */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    max-width: 600px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#summary-details p {
+    margin-bottom: 10px;
+}
+
+#summary-details strong {
+    display: inline-block;
+    width: 150px;
+}
+
+#confirm-order {
+     display: block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#confirm-order:hover {
+    background-color: #0056b3;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    #namkeen-list th,
+    #namkeen-list td {
+        padding: 6px;
+        font-size: 0.9em;
+    }
+
+    #namkeen-list input[type="number"] {
+        width: 50px;
+    }
+
+     .modal-content {
+        width: 90%;
+        margin: 20% auto;
+    }
+
+    #summary-details strong {
+        display: block;
+        width: auto;
+        margin-bottom: 3px;
+    }
+} 
