@@ -2,3 +2,10 @@ fastapi
 uvicorn[standard]
 pandas
 scikit-learn
+psycopg2-binary 
+SQLAlchemy 
+passlib[bcrypt] 
+python-jose[cryptography] 
+alembic
+email-validator 
+python-multipart 
