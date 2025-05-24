@@ -108,7 +108,7 @@ The backend exposes the following API endpoints:
               "Track URI": "spotify:track:rec_uri1",
               "Similarity": 0.95
             }
-            // ... more recommendations
+            
           ]
         }
         ```
@@ -130,7 +130,6 @@ The backend exposes the following API endpoints:
             "Track Name": "Suggested Track 2",
             "Artist Name(s)": "Artist B"
           }
-          // ... more suggestions
         ]
         ```
 
@@ -141,4 +140,3 @@ The backend exposes the following API endpoints:
 3.  Open your browser and navigate to `http://localhost:3000`.
 4.  Use the interface to search for songs and get recommendations.
 
-*(Further details on frontend interaction would depend on the specific UI components, which were recently modified/deleted).*
