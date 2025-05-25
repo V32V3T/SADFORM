@@ -123,13 +123,10 @@ main {
 
 .recommendations {
   margin-top: 30px;
-  
-  width: 100vw;
-  position: relative; 
-  transform: translateX(-50%);
+  width: 100%;
   box-sizing: border-box; 
-  padding-left: 20px;  
-  padding-right: 20px; 
+  padding-left: 20px;  /* Kept for now */
+  padding-right: 20px; /* Kept for now */
 }
 
 .recommendations h2 {
@@ -157,6 +154,7 @@ main {
   min-height: 380px; 
   width: 320px; 
   flex-shrink: 0; 
+}
 
 .recommendation-card img {
   width: 100%;
@@ -308,5 +306,4 @@ main {
     margin-top: 20px;
     font-style: italic;
     color: #aaa;
-}
 }
